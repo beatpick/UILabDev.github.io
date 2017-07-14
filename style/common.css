@@ -1,0 +1,209 @@
+﻿
+/*default*/
+html {  }
+* { -webkit-text-size-adjust: none; -moz-text-size-adjust: none; -ms-text-size-adjust: none;  }
+ul, li, dl, dd, dt, div, a, section { list-style:none; padding:0; margin:0;}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {  font-family: inherit; color: inherit; margin: 0; padding: 0; font-weight: normal;}
+h2 { font-size: 24px;}
+h3 { font-size: 18px;}
+h4 { font-size: 15px;}
+h5 { font-size: 14px;}
+h6 { font-size: 12px;}
+p { margin:0; padding:0; display:inline-block;}
+a { color: inherit;}
+button, input, optgroup, select, textarea { margin: 0; font: inherit; color: inherit;}
+button { overflow: visible;}
+button, select { text-transform: none;}
+button, input, select, textarea { font-family: inherit;  font-size: inherit; line-height: inherit;}
+button, html input[type=button], input[type=reset], input[type=submit] { -webkit-appearance: button; cursor: pointer;}
+button[disabled], html input[disabled] { cursor: default; }
+button::-moz-focus-inner, input::-moz-focus-inner { padding: 0; border: 0; }
+input { line-height: normal;}
+input[type="tel"] { border:none; width: 100%; outline: none;}
+optgroup { font-weight: 700;}
+table { border-spacing: 0; border-collapse: collapse;}
+td, th { padding: 0;}
+:focus { outline: none;}
+
+
+
+
+
+body {
+    font-family: 'Nanum Square', sans-serif, Dotum, Arial;
+    margin: 0;
+    padding: 0;
+    -webkit-text-size-adjust: none;
+    -ms-text-size-adjust: none;
+    color: #2a2e39;
+    font-size: 15px;
+    background: #ebedf2;
+    -webkit-user-select: none;
+    -webkit-touch-callout:none;
+    -webkit-tap-highlight-color:rgba(0, 0, 0, 0);
+}
+
+.wrap {
+     padding:10px;
+     box-sizing: border-box;     
+}
+
+.content-image {
+    position: relative;
+}
+
+.content-image-group {
+    position: relative;
+}
+
+.emotion, .action, .background, .weather {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.emotion img, .action img, .background img, .weather img {
+    width: 100%;
+    border-radius: 6px 6px 0 0 ;
+}
+
+.emotion {
+    z-index: 4;
+}
+
+.action {
+    z-index: 3;
+}
+
+.background {
+    z-index: 2;
+}
+
+.weather {
+    z-index: 1;
+}
+
+.content-text {
+    position: relative;
+    background: #ffffff;
+    margin-top: 89%;
+    border-radius: 0 0 6px 6px;
+    box-shadow: 0 3px 1px rgba(0,0,0,0.1);
+}
+
+.content-text-list {
+    padding: 20px 14px;
+    box-sizing:border-box;
+    font-size:15px;
+    border-bottom:1px solid #dddfe4;
+}
+
+    .content-text-list dl {
+        width: 100%;
+        display: inline-block;
+        line-height:22px;
+    }
+    .content-text-list dt {
+        width:58%;
+        display: inline-block;
+    }
+    .content-text-list dd {
+        width:38%;
+        margin-left:2%;
+        display: inline-block;
+        text-align: right; 
+    }
+
+.content-text-write {
+    text-align: center;
+    padding:42px 14px;
+}
+
+    .content-text-write p {
+        margin-bottom: 10px;
+        width: 100%;
+    }
+
+@media screen and (max-width: 320px) {
+    .content-text-write p {
+        font-size:14px;
+    }
+} 
+
+.content-text-write-btn, .content-text-modify-btn {
+    border: none;
+    background: #c3c8d4;
+    color: #fff;
+    vertical-align: middle;
+    padding: 3px 12px;
+    line-height: 20px;
+    border-radius: 50px;
+    font-size: 13px;
+}
+
+.content-text-write-btn:active, .content-text-modify-btn:active {
+    background: #a8b0c2;
+}
+
+    .content-text-write-btn img, .content-text-modify-btn img {
+        width:18px;
+        vertical-align:middle;
+    }
+
+.content-text-modify {
+    font-size: 13px;
+    padding: 20px 14px;
+    display: inline-block;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+    .content-text-modify-btn {
+        float: right;
+        display: block;
+        margin-bottom: 10px;
+    }
+
+.content-text-modify-con {
+    width:100%;
+    display: inline-block
+}
+
+/*404에러페이지*/
+
+.wrap-error {
+    background: #ffffff;
+}
+
+.error {
+    position: relative;
+    margin-top: 40px;
+    width: 100%;    
+    text-align: center;
+}
+
+.error img {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+
+
+/*이벤트페이지*/
+
+.wrap-event {
+    background: #ffffff;
+}
+
+.event {
+    position: relative;
+    width: 100%;    
+    text-align: center;
+}
+
+.event img {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+

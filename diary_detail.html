@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity3">
+<head>
+    <title>딩동다이어리</title>
+    <meta http-equiv="Content-Language" content="ko" />
+    <meta http-equiv="Content-Type" content="text/html" charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, target-densitydpi=medium-dpi" />
+    <link href="style/common.css" rel="stylesheet" type="text/css" />
+    <link href="style/nanumsquare.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div class="wrap">
+        <div class="content-image">
+            <div class="content-image-group">
+                <div class="emotion"><img src="images/john/emotion_angry.png" alt="emotion" /></div>
+                <div class="action"><img src="images/john/action_work.png" alt="action" /></div>
+                <div class="background"><img src="images/john/background_home.png" alt="background" /></div>
+                <div class="weather"><img src="images/john/weather_rain.png" alt="weather" /></div>
+            </div>
+        </div> 
+        <div class="content-text">
+            <div class="content-text-list">
+                <dl>
+                    <dt>오늘 주로 한 행동</dt>
+                    <dd>일</dd>
+                    <dt>오늘 주로 있었던 장소</dt>
+                    <dd>회사</dd>
+                    <dt>오늘의 대체적인 기분</dt>
+                    <dd>그저그럼</dd>
+                </dl>
+            </div>
+            <!--글 없을시-->
+            <div class="content-text-write">
+                <p>오늘에 대해 간단한 글을 써보는건 어떨가요?</p>
+                <button class="content-text-write-btn"><img src="images/btn_write.png" alt="글쓰기" />글쓰기</button>
+            </div>
+            <!--//글 없을시-->
+            <!--글 수정-->
+            <div class="content-text-modify" style="display:none;">
+                <button class="content-text-modify-btn"><img src="images/btn_modify.png" alt="수정" />수정</button>
+                <div class="content-text-modify-con">오늘 하루도 똑같은 하루였다. 지겹당</div>
+            </div>
+            <!--//글 수정-->
+        </div>
+    </div>
+</body>
+</html>
