@@ -1,0 +1,130 @@
+{
+  "data": {
+    "recommend": [
+      {
+        "all_view_url": "http://115.68.27.104:8080/room/api/recommend", 
+        "index": 0, 
+        "name": "\ucd94\ucc9c", 
+        "room_list": [
+          {
+            "current_participants": 0, 
+            "desc": "\ud14c\uc2a4\ud2b8 \uc548\ub155\ud558\uc138\uc694", 
+            "expire": "2017-06-30 12:00:00", 
+            "latitude": 20.1231, 
+            "longitude": 23.1231, 
+            "max_participants": 5, 
+            "owner": {
+              "gender": 2, 
+              "profile": "", 
+              "user_id": "test", 
+              "user_name": "\ud14c\uc2a4\ud2b8"
+            }, 
+            "photo": [], 
+            "room_id": 8, 
+            "since_id": 0, 
+            "status": 1, 
+            "type": 1
+          }, 
+          {
+            "current_participants": 0, 
+            "desc": "\ud14c\uc2a4\ud2b8 \uc548\ub155\ud558\uc138\uc694", 
+            "expire": "2017-06-30 12:00:00", 
+            "latitude": 20.1231, 
+            "longitude": 23.1231, 
+            "max_participants": 5, 
+            "owner": {
+              "gender": 2, 
+              "profile": "", 
+              "user_id": "test", 
+              "user_name": "\ud14c\uc2a4\ud2b8"
+            }, 
+            "photo": [], 
+            "room_id": 9, 
+            "since_id": 1, 
+            "status": 1, 
+            "type": 1
+          }, 
+          {
+            "current_participants": 0, 
+            "desc": "\ud14c\uc2a4\ud2b8 \uc548\ub155\ud558\uc138\uc694", 
+            "expire": "2017-06-30 12:00:00", 
+            "latitude": 20.1231, 
+            "longitude": 23.1231, 
+            "max_participants": 5, 
+            "owner": {
+              "gender": 2, 
+              "profile": "", 
+              "user_id": "test", 
+              "user_name": "\ud14c\uc2a4\ud2b8"
+            }, 
+            "photo": [], 
+            "room_id": 14, 
+            "since_id": 2, 
+            "status": 1, 
+            "type": 1
+          }, 
+          {
+            "current_participants": 0, 
+            "desc": "\ud14c\uc2a4\ud2b8 \uc548\ub155\ud558\uc138\uc694", 
+            "expire": "2017-06-30 12:00:00", 
+            "latitude": 20.1231, 
+            "longitude": 23.1231, 
+            "max_participants": 5, 
+            "owner": {
+              "gender": 2, 
+              "profile": "", 
+              "user_id": "test", 
+              "user_name": "\ud14c\uc2a4\ud2b8"
+            }, 
+            "photo": [], 
+            "room_id": 15, 
+            "since_id": 3, 
+            "status": 1, 
+            "type": 1
+          }, 
+          {
+            "current_participants": 0, 
+            "desc": "\ud14c\uc2a4\ud2b8 \uc548\ub155\ud558\uc138\uc694", 
+            "expire": "2017-06-30 12:00:00", 
+            "latitude": 20.1231, 
+            "longitude": 23.1231, 
+            "max_participants": 5, 
+            "owner": {
+              "gender": 2, 
+              "profile": "", 
+              "user_id": "test", 
+              "user_name": "\ud14c\uc2a4\ud2b8"
+            }, 
+            "photo": [], 
+            "room_id": 16, 
+            "since_id": 4, 
+            "status": 1, 
+            "type": 1
+          }
+        ]
+      }, 
+      {
+        "all_view_url": "http://115.68.27.104:8080/room/api/category/2", 
+        "index": 1, 
+        "name": "\ubaa8\uc784", 
+        "room_list": []
+      }, 
+      {
+        "all_view_url": "http://115.68.27.104:8080/room/api/category/3", 
+        "index": 2, 
+        "name": "\ud56b\ud0dc", 
+        "room_list": []
+      }, 
+      {
+        "all_view_url": "http://115.68.27.104:8080/room/api/category/4", 
+        "index": 3, 
+        "name": "\ubc88\uac1c", 
+        "room_list": []
+      }
+    ]
+  }, 
+  "meta": {
+    "code": 20000, 
+    "message": "SUCCESS"
+  }
+}
