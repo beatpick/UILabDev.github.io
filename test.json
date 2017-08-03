@@ -1,6 +1,7 @@
 {
   "data": {
-    "recommend": 
+    
+    "recommend": [
       {
         "all_view_url": "http://115.68.27.104:8080/room/api/recommend", 
         "index": 0, 
@@ -121,7 +122,7 @@
         "name": "\ubc88\uac1c", 
         "room_list": []
       }
-    
+    ]
   }, 
   "meta": {
     "code": 20000, 
