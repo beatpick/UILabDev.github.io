@@ -103,24 +103,6 @@
             "type": 1
           }
         ]
-      }, 
-      {
-        "all_view_url": "http://115.68.27.104:8080/room/api/category/2", 
-        "index": 1, 
-        "name": "\ubaa8\uc784", 
-        "room_list": []
-      }, 
-      {
-        "all_view_url": "http://115.68.27.104:8080/room/api/category/3", 
-        "index": 2, 
-        "name": "\ud56b\ud0dc", 
-        "room_list": []
-      }, 
-      {
-        "all_view_url": "http://115.68.27.104:8080/room/api/category/4", 
-        "index": 3, 
-        "name": "\ubc88\uac1c", 
-        "room_list": []
       }
     ]
   }, 
